@@ -25,7 +25,7 @@ describe("index", () => {
     });
 
     it("returns a named function", () => {
-      expect(fn.name).not.to.eql("");
+      expect(fn.name).to.eql("");
     });
   });
 
